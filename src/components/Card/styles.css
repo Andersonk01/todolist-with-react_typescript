@@ -1,0 +1,96 @@
+.card-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  height: min-content;
+  margin: 10px;
+
+  background: url("./../../img/stars.png") #16a085;
+  border: 1px solid #ecc8aa;
+  border-radius: 20px;
+  box-shadow: 4px 5px 8px #b8a288, -4px -5px 8px #f8dcb8;
+}
+@media screen and (max-width: 920px) {
+  .card-main {
+    width: 100%;
+  }
+}
+
+.pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+}
+.listas-exibidas {
+  width: 1000%;
+  height: 100%;
+  padding: 10px;
+  border-top: 1px solid #f2f2f2;
+}
+
+.pesquisa-input {
+  width: 50%;
+  height: 40px;
+  padding: 4px;
+  border-radius: 10px;
+  padding-left: 4px;
+}
+.pesquisa-input:focus {
+  outline: none;
+  border: 1px solid #f2f2f2;
+}
+
+ul {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+li {
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  border-radius: 10px;
+}
+
+li:hover {
+  transition: all 0.3s;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    transparent,
+    #1ac6a3,
+    #2dd1b080,
+    #1ac6a3,
+    transparent,
+    transparent
+  );
+}
+
+.button-lista {
+  position: absolute;
+  right: -1px;
+  transition: all 0.3s;
+  opacity: 0.8;
+  border-radius: 36%;
+}
+
+.button-lista:hover {
+  font-size: 1.9rem;
+  color: #fff;
+  background-color: #66ff0079;
+  border-radius: 0;
+  opacity: 1;
+}
