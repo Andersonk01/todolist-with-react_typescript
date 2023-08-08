@@ -1,4 +1,4 @@
-![layout-todolist](/layout.png)
+![layout-todolist](public/layout.png)
 
 # To-Do List App
 
