@@ -1,3 +1,5 @@
+![layout-todolist](/layout.png)
+
 # To-Do List App
 
 Este projeto é um aplicativo simples de Lista de Tarefas construído utilizando React. Ele permite aos usuários adicionar tarefas e deletar ao serem concluídas. O aplicativo utiliza o gerenciamento de estado do React para atualizar e exibir dinamicamente as tarefas.
